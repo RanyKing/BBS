@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+
+body,div,ul,ol,dl,dt,dd,li,dl,h1,h2,h3,h4,p,th,td,form,input,select,iframe,textarea
+	{
+	margin: 0;
+	padding: 0;
+	font: 12px/1.5 tahoma, "microsoft yahei", "\5FAE\8F6F\96C5\9ED1"
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #333
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #DD4B39
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+#header {
+	margin: 0 auto;
+	width: 1024px;
+}
+
+#header table {
+	width: 1024px;
+}
+
+#login {
+	width: 600px;
+	margin: 80px auto;
+	border: 1px solid #DDD;
+	padding: 30px 50px;
+}
+
+#login-top {
+	border-bottom: 1px solid #DDD;
+	padding: 0 0 10px 0;
+	overflow: auto;
+}
+
+#login-top h2 {
+	font-size: 22px;
+	float: left;
+}
+
+#login-top a {
+	font-size: 14px;
+	float: right;
+}
+
+.login-item {
+	margin-top: 28px;
+	text-align: center;
+}
+
+.login-item label {
+	display: block;
+	float: left;
+	width: 130px;
+	line-height: 40px;
+	font-size: 15px;
+	color: #666;
+	text-align: right;
+}
+
+.login-item span {
+	padding: 0px 5px;
+	font-size: 18px;
+	color: #900b09;
+}
+
+.login-item .login-txt {
+	width: 230px;
+	line-height: 18px;
+	border: 1px solid #CCC;
+	padding: 10px 8px;
+	font-size: 15px;
+	color: #666;
+	vertical-align: middle;
+}
+
+.login-item .login-code {
+	width: 120px;
+}
+
+.login-item .login-btn {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	background: #ff5a00;
+	border: 1px solid #ff5a00;
+	color: #FFF;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 10px 20px;
+	width: 310px;
+	font-size: 16px;
+}
+
+#footer {
+	text-align: center;
+	padding: 10px 0 0 0;
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+}
